@@ -1,0 +1,32 @@
+.create-post {
+  position: relative;
+  top: 5rem;
+
+  display: grid;
+  justify-content: center;
+}
+label {
+  font-size: larger;
+}
+input {
+  width: 15rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+.post-button {
+  margin-top: 0.5rem;
+  width: 7rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: aquamarine;
+}
+.post-button:hover {
+  background-color: aqua;
+}
+.postPic {
+  height: 50px;
+  width: 50px;
+}

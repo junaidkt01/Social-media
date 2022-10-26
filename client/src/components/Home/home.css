@@ -1,0 +1,37 @@
+.posts {
+  position: relative;
+  top: 5rem;
+
+  display: grid;
+  justify-content: center;
+}
+.card {
+  max-width: 500px;
+}
+
+.card h1 {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 0.5rem 0 0.5rem 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  font-weight: 300;
+}
+.card img {
+  max-width: 400px;
+  max-height: 400px;
+  margin-bottom: 3px;
+}
+.post-icons {
+  display: flex;
+  margin-bottom: 3px;
+}
+.post-icons i {
+  margin-right: 1rem;
+  cursor: pointer;
+  font-size: larger;
+}
+.comment {
+  border: none;
+  border-bottom: solid 1px black;
+}
